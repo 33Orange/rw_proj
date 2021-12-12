@@ -9,7 +9,7 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-  @media (max-width: 380px) {
+  @media (max-width: 410px) {
     height: 100px;
     .footer__content {
       width: 86%;
@@ -28,7 +28,7 @@ footer {
       color: #ffffff90;
       font-weight: 300;
     }
-    @media (max-width: 380px) {
+    @media (max-width: 410px) {
       order: 2;
       width: 100%;
       .copyrights__text {
@@ -57,7 +57,7 @@ footer {
         }
       }
     }
-    @media (max-width: 380px) {
+    @media (max-width: 410px) {
       order: 1;
       width: 100%;
       .rules__item {
