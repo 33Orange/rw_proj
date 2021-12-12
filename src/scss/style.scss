@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800);
+@import "header";
+@import "about";
+@import "order-info";
+@import "features";
+@import "order";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+body {
+  min-width: 320px;
+}
+main {
+  @media (max-width: 917px) {
+    margin-top: 350px;
+    overflow: hidden;
+  }
+  @media (max-width: 768px) {
+    margin-top: 250px;
+  }
+  @media (max-width: 320px) {
+    margin-top: 150px;
+  }
+}
