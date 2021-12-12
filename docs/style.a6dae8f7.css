@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800);
 header {
-  background-image: url("/bg_desktop.6e58eeed.png");
+  background-image: url("bg_desktop.6e58eeed.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -32,7 +32,7 @@ header {
 @media (max-width: 320px) {
   header {
     height: 469px;
-    background-image: url("/bg_mobile.334081f8.png");
+    background-image: url("bg_mobile.334081f8.png");
   }
 }
 header .header-bar {
@@ -64,7 +64,7 @@ header .menu .menu__button_mobile {
   }
   header .menu .menu__button_mobile {
     display: block;
-    background: url("/burger_icon.c1db66b3.svg");
+    background: url("burger_icon.c1db66b3.svg");
     width: 24px;
     height: 19px;
   }
@@ -735,4 +735,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=/style.a6dae8f7.css.map */
+/*# sourceMappingURL=style.a6dae8f7.css.map */
