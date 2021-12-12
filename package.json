@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cleanup": "rm -rf .cache dist",
+    "cleanup": "rm -rf .cache dist docs",
     "dev": "npm run cleanup && parcel src/index.html",
-    "build": "npm run cleanup && parcel build src/index.html"
+    "build": "npm run cleanup && parcel build src/index.html --public-url ./ && xcopy dist docs"
   },
   "keywords": [],
   "author": "",
