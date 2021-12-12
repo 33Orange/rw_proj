@@ -428,6 +428,11 @@ header .menu .menu__button_mobile {
   background: linear-gradient(213.28deg, #c338c7 -40.34%, #6b36b3 95.69%);
   padding: 50px 0;
 }
+@media (max-width: 768px) {
+  .features {
+    padding: 0;
+  }
+}
 .features .features__flex-wrapper {
   width: 86%;
   margin: 0 auto;
@@ -502,7 +507,6 @@ header .menu .menu__button_mobile {
   .features .features__item {
     width: 100%;
     justify-content: flex-start;
-    height: 525px;
   }
   .features .features__item.first, .features .features__item.second, .features .features__item.third, .features .features__item.fourth {
     border-image: linear-gradient(to right, #ffffff01, #ffffff70, #ffffff01) 1;
@@ -720,9 +724,14 @@ body {
     margin-top: 250px;
   }
 }
+@media (max-width: 480px) {
+  main {
+    margin-top: 200px;
+  }
+}
 @media (max-width: 320px) {
   main {
-    margin-top: 150px;
+    margin-top: 130px;
   }
 }
 
