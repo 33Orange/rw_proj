@@ -1,8 +1,8 @@
 {
-  "name": "zajnotesttask",
+  "name": "rw_proj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "cleanup": "rm -rf .cache dist docs",
     "dev": "npm run cleanup && parcel src/index.html",
